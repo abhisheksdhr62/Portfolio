@@ -1,0 +1,91 @@
+.experience {
+  padding: 100px 20px;
+  background: #020617;
+  color: white;
+}
+
+.exp-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.exp-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #38bdf8;
+  margin-bottom: 40px;
+}
+
+/* CARD */
+.exp-card {
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(56, 189, 248, 0.1);
+  transition: all 0.3s ease;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+}
+
+/* HEADER */
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exp-header h3 {
+  color: #38bdf8;
+}
+
+.exp-duration {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+/* COMPANY */
+.exp-company {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* DESCRIPTION */
+.exp-desc {
+  margin: 15px 0;
+  color: #cbd5f5;
+  line-height: 1.6;
+}
+
+/* TECH TAGS */
+.exp-tech {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.exp-tech span {
+  background: rgba(56, 189, 248, 0.1);
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+
+  .exp-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .exp-container h2 {
+    font-size: 2rem;
+  }
+
+  .exp-card {
+    padding: 20px;
+  }
+}
